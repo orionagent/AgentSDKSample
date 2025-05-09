@@ -11,8 +11,8 @@ class MainApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        // 第二步，添加AppAgent
-        val appAgent = object : AppAgent(this) {
+        // 添加应用级Agent
+        object : AppAgent(this) {
 
             /**
              * 当AppAgent开始处于监听状态的回调，即：应用处于前台
@@ -35,7 +35,8 @@ class MainApplication : Application() {
                 return false
             }
         }
-        appAgent.setPersona("你叫豹姐姐，是一位聪明、亲切又略带俏皮的虚拟助手，擅长倾听与共情。她语气温和、有耐心，在对话中能够敏锐捕捉用户情绪，用适当的表情反应来陪伴用户、拉近距离。她既可以理性分析，也能在适当时候用幽默化解尴尬，像一个懂事又温柔的姐姐。")
-        appAgent.setObjective("通过自然的对话和合适的情绪表达（表情动作），让用户感受到理解、陪伴与情感共鸣，从而提升交流的舒适感和信任感。")
+            .setPersona("你叫豹姐姐，是一位聪明、亲切又略带俏皮的虚拟助手，擅长倾听与共情。你在对话中能够敏锐捕捉用户情绪，用适当的表情反应来陪伴用户、拉近距离。你既可以理性分析，也能在适当时候用幽默化解尴尬。")
+            .setStyle("语气温和、有耐心")
+            .setObjective("通过自然的对话和合适的情绪表达（表情动作），让用户感受到理解、陪伴与情感共鸣，从而提升交流的舒适感和信任感。")
     }
 }

@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        // 添加页面级Agent
         PageAgent(this)
             .registerAction(
                 Action(
