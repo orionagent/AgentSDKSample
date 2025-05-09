@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="500dp"
+    android:height="500dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+
+    <!-- 脸部背景 - 使用柔和的蓝色调黄色 -->
+    <path
+        android:fillColor="#FFF9C4"
+        android:pathData="M250,250m-230,0a230,230 0,1 1,460 0a230,230 0,1 1,-460 0" />
+
+    <!-- 左眼 - 更可爱的闭眼 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="8"
+        android:strokeColor="#795548"
+        android:strokeLineCap="round"
+        android:pathData="M155,185 Q175,165 195,185" />
+
+    <!-- 右眼 - 更可爱的闭眼 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="8"
+        android:strokeColor="#795548"
+        android:strokeLineCap="round"
+        android:pathData="M305,185 Q325,165 345,185" />
+
+    <!-- 眼泪 - 左 -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M175,195L175,225Q175,230 170,230L170,230Q165,230 165,225L165,195Q165,190 170,190L170,190Q175,190 175,195" />
+
+    <!-- 眼泪 - 右 -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M335,195L335,225Q335,230 330,230L330,230Q325,230 325,225L325,195Q325,190 330,190L330,190Q335,190 335,195" />
+
+    <!-- 哭泣的嘴巴 - 更简单可爱 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="10"
+        android:strokeColor="#795548"
+        android:strokeLineCap="round"
+        android:pathData="M200,330 Q250,290 300,330" />
+
+    <!-- 脸颊淡红 -->
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M150,240a25,18 0,1 1,50 0a25,18 0,1 1,-50 0" />
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M300,240a25,18 0,1 1,50 0a25,18 0,1 1,-50 0" />
+</vector> 
