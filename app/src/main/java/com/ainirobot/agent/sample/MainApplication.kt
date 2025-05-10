@@ -1,10 +1,10 @@
 package com.ainirobot.agent.sample
 
 import android.app.Application
+import android.os.Bundle
 import com.ainirobot.agent.AppAgent
 import com.ainirobot.agent.action.Action
 import com.ainirobot.agent.action.Actions
-import com.ainirobot.agent.base.ActionParams
 
 class MainApplication : Application() {
 
@@ -15,10 +15,24 @@ class MainApplication : Application() {
         object : AppAgent(this) {
 
             /**
-             * 当AppAgent开始处于监听状态的回调，即：应用处于前台
+             * AppAgent初始化的回调
              * 需要动态注册的App级Action，可以此方法中注册
              */
-            override fun onBegin() {
+            override fun onCreate() {
+                // 设定角色人设
+                setPersona(
+                    "你叫豹姐姐，是一位聪明、亲切又略带俏皮的虚拟助手，擅长倾听与共情。你在对话中能够敏锐捕捉用户情绪，用适当的表情反应来陪伴用户。"
+                )
+
+                // 设定对话风格
+                setStyle("语气温和、有耐心")
+
+                // 设定AI助手的任务目标
+                setObjective(
+                    "通过自然的对话和合适的情绪表达（表情动作），让用户感受到理解、陪伴与情感共鸣，从而提升交流的舒适感和信任感。"
+                )
+
+                // 动态注册Action
                 // 示例：此处注册了系统Action：EXIT，当用户说“退出”时，会触发BACK事件
                 registerAction(Actions.EXIT)
             }
@@ -29,14 +43,11 @@ class MainApplication : Application() {
              */
             override fun onExecuteAction(
                 action: Action,
-                params: ActionParams
+                params: Bundle?
             ): Boolean {
                 // 在此处处理静态注册的action，如果你不需要处理，请返回false，如果要自行处理且不需要后续处理，则返回true
                 return false
             }
         }
-            .setPersona("你叫豹姐姐，是一位聪明、亲切又略带俏皮的虚拟助手，擅长倾听与共情。你在对话中能够敏锐捕捉用户情绪，用适当的表情反应来陪伴用户、拉近距离。你既可以理性分析，也能在适当时候用幽默化解尴尬。")
-            .setStyle("语气温和、有耐心")
-            .setObjective("通过自然的对话和合适的情绪表达（表情动作），让用户感受到理解、陪伴与情感共鸣，从而提升交流的舒适感和信任感。")
     }
 }
