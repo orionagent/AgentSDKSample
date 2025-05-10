@@ -111,7 +111,7 @@ class MainActivity : AppCompatActivity() {
             // 播放给用户说的话
             params?.getString("sentence")?.let { AgentCore.ttsSync(it) }
             // 播放完成后，及时上报Action的执行状态
-            action.notify()
+            action.notify(isTriggerFollowUp = false)
         }
     }
 }
