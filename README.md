@@ -1,5 +1,9 @@
 # AgentSDK 情感交互Demo项目介绍
 
+## 🔗 SDK文档链接
+
+📚 **最新AgentOS SDK文档**: [https://github.com/orionagent/agentos-sdk](https://github.com/orionagent/agentos-sdk)
+
 ## 📖 项目背景
 
 这是一个基于猎户星空 AgentOS SDK 开发的Android示例应用，专门展示**情感识别与表情反馈**功能。该Demo演示了如何使用SDK创建一个能够理解用户情绪并做出相应表情反应的智能交互应用。
