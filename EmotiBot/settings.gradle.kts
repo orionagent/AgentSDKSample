@@ -16,7 +16,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { setUrl("https://jitpack.io") }
+        maven { // 【重要配置】新增的maven仓库
+            credentials.username = "agentMaven"
+            credentials.password = "agentMaven"
+            url = uri("https://npm.ainirobot.com/repository/maven-public/")
+        } // 【重要配置结束】
     }
 }
 

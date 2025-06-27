@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.ainirobot.agent.sample"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.ainirobot.agent.sample"
