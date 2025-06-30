@@ -22,6 +22,11 @@
 👉 **[查看详细文档](./AgentRole/README.md)**
 
 ---
+> **🚨 Java版本实现**  
+> 📁 **[AgentRoleJava](./AgentRoleJava/)** 目录提供相同功能的Java实现版本
+---
+
+---
 
 ### 😊 EmotiBot - 情感交互Demo
 **情感识别与表情反馈应用**
