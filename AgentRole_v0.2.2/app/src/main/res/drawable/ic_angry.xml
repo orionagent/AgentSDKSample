@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="500dp"
+    android:height="500dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+
+    <!-- 脸部背景 - 使用柔和的粉红色 -->
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M250,250m-230,0a230,230 0,1 1,460 0a230,230 0,1 1,-460 0" />
+
+    <!-- 左眼 - 更可爱的眼睛 -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M175,180a20,25 0,1 1,40 0a20,25 0,1 1,-40 0" />
+    <!-- 左眼高光 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M185,170a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+    <!-- 右眼 - 更可爱的眼睛 -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M285,180a20,25 0,1 1,40 0a20,25 0,1 1,-40 0" />
+    <!-- 右眼高光 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M295,170a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+    <!-- 生气的眉毛 - 左 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="8"
+        android:strokeColor="#795548"
+        android:strokeLineCap="round"
+        android:pathData="M155,150 L195,165" />
+
+    <!-- 生气的眉毛 - 右 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="8"
+        android:strokeColor="#795548"
+        android:strokeLineCap="round"
+        android:pathData="M305,165 L345,150" />
+
+    <!-- 嘟嘴 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="10"
+        android:strokeColor="#795548"
+        android:strokeLineCap="round"
+        android:pathData="M210,320 L250,300 L290,320" />
+
+    <!-- 脸颊红晕 - 生气时脸红 -->
+    <path
+        android:fillColor="#EF9A9A"
+        android:pathData="M150,240a25,18 0,1 1,50 0a25,18 0,1 1,-50 0" />
+    <path
+        android:fillColor="#EF9A9A"
+        android:pathData="M300,240a25,18 0,1 1,50 0a25,18 0,1 1,-50 0" />
+</vector> 
