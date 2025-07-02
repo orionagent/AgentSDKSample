@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">猎户电子门禁</string>
+    <string name="open_door">开门</string>
+    <string name="sending_command">发送命令中...</string>
+    <string name="command_sent">命令已发送</string>
+    <string name="send_failed">发送失败</string>
+    <string name="response_received">收到响应</string>
+    <string name="no_response">未收到响应</string>
+    <string name="connection_timeout">连接超时</string>
+    <string name="auth_code_required">请输入授权码</string>
+    <string name="enter_auth_code">输入授权码</string>
+    <string name="verify">验证</string>
+    <string name="cancel">取消</string>
+    <string name="auth_code_hint">请输入4位授权码</string>
+    <string name="verification_failed">验证失败，拒绝开门</string>
+    <string name="verification_success">验证成功</string>
+    <string name="invalid_auth_code">授权码格式错误</string>
+    <string name="voice_control_enabled">语音控制已启用</string>
+    <string name="voice_command_hint">您可以说"开门"来控制闸机</string>
+    <string name="voice_auth_prompt">请说出4位授权码</string>
+    <string name="voice_auth_success">语音授权成功</string>
+    <string name="voice_auth_failed">语音授权失败</string>
+</resources>

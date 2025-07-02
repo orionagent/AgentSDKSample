@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- 外圆背景 -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M60,10C32.386,10 10,32.386 10,60s22.386,50 50,50s50,-22.386 50,-50S87.614,10 60,10z"/>
+    
+    <!-- 闸机门框 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,35h15v50h-15z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,35h15v50h-15z"/>
+    
+    <!-- 闸机门 -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M45,40h30v40h-30z"/>
+    
+    <!-- 控制面板 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M50,50h20v8h-20z"/>
+    
+    <!-- 指示灯用圆形路径代替 -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M55,52a2,2 0 1,0 0,4a2,2 0 1,0 0,-4z"/>
+    <path
+        android:fillColor="#8BC34A"
+        android:pathData="M65,52a2,2 0 1,0 0,4a2,2 0 1,0 0,-4z"/>
+    
+    <!-- 箭头指示 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,65L65,70L55,75z"/>
+    
+</vector> 

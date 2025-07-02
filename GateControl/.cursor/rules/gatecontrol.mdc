@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+对AgentOS SDK的使用请参考api_doc.md里的集成方式。
