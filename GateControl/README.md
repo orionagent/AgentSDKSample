@@ -39,7 +39,7 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/orionagent/agent-sdk-samples.git
+   git clone https://github.com/orionagent/AgentSDKSample.git
    cd GateControl
    ```
 
